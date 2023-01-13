@@ -360,7 +360,7 @@
     position: fixed;
     right: 0;
     top: 25%;
-    z-index: 95;
+    z-index: 999;
     max-width: 90px;
     background-color: #fff;
 }
@@ -690,4 +690,127 @@
 #insta .container .right figure:hover {
     outline: 10px solid #39a7f0;
     transition: All .3s ease;
+}
+
+
+
+
+
+
+
+
+
+.nav {
+    margin: 0 0 50px 0;
+
+}
+
+.nav h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+/* .location {
+    background: rgb(255, 255, 255);
+    display: flex;
+    letter-spacing: -1px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
+
+.location .left .inner {
+    padding: 30px;
+}
+
+.location .left img {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.location .left h2 {
+    font-size: 19px;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+
+.location .left p {
+    color: #b7b8b8;
+    font-size: 35px;
+
+}
+
+.location .left span {
+    color: #39a7f0;
+}
+
+.location .right {
+    margin: 20px;
+} */
+
+
+
+
+/* footer */
+
+#footer {
+    background: #2c2c2c;
+    color: #c3c3c3;
+    font-size: 14px;
+    height: 220px;
+}
+
+#footer .border {
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+#footer .inner01 {
+    padding: 25px 0;
+    letter-spacing: -1px;
+}
+
+#footer .inner02 {
+    padding: 50px 0;
+}
+
+#footer .inner01,
+.inner02 {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    gap: 30px;
+
+}
+
+#footer .inner02 figure img {
+    margin: 0 50px 0 0;
+}
+
+#footer .inner02 .info .info01 {
+    display: flex;
+}
+
+#footer .inner02 .info .info02 {
+    display: flex;
+
+}
+
+#footer .inner02 .info h2 {
+    display: flex;
+    font-size: 15px;
+    margin: 0 0 0 30px;
+}
+
+#footer .inner02 .info h2:first-child {
+    margin: 0;
+}
+
+#footer .inner02 .info p {
+    font-weight: 500;
+    font-size: 15px;
+
+    color: #fff;
+    margin: 0 0 0 3px;
 }
